@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>News100-Top Headlines</title>
+
+    <style>
+
+      body{
+        background-color:rgb(0, 0, 0) ;
+      }
+      .fa {
+    padding: 7px 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span style="color: rgb(55, 212, 255); font-weight: 500 ;" >News</span>
+            <img src="logo.jpg" width="30" height="30"  class="d-inline-block align-top" alt="" style="border-radius: 60%;">
+          </a>
+          <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:rgb(156, 156, 156);">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 liveTV
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="ndtv.html">NDTV</a>
+                  <a class="dropdown-item" href="abpnews.html">ABP News</a>
+                  <a class="dropdown-item" href="indiatv.html">India TV</a>
+                 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(255, 255, 255);">
+                Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="sports.html" id="sport">Sports</a></li>
+                  <li><a class="dropdown-item" href="science.html" id="science">Science</a></li>
+                  <li><a class="dropdown-item" href="world.html" id="world">World</a></li>
+                  <li><a class="dropdown-item" href="Entertainment.html" id="Enter">Entertainment</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pricing.html" style="color: white;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="clients.html" style="color: white;">Partners</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="newsQuery">
+              <button class="btn btn-outline-success bg-success text-bg-success" type="submit" id="searchBtn">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+        <div class="row m-3 p-4" id="newsType"></div>
+        <div class="row me-2 ms-2 p-4" id="newsdetails"><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">NASA missions detect 'exceptional' cosmic blast from birth of new black hole - The Indian Express</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMicGh0dHBzOi8vaW5kaWFuZXhwcmVzcy5jb20vYXJ0aWNsZS90ZWNobm9sb2d5L3NjaWVuY2UvbmFzYS1ibGFjay1ob2xlLWJpcnRoLWdhbW1hLXJheS1idXJzdC1jb3NtaWMtYmxhc3QtODIxMzkzNS_SAQA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://feeds.abplive.com/onecms/images/uploaded-images/2022/10/17/6c0f97a84c9f72a509d21e6024d214e11666002083746324_original.jpg?impolicy=abp_cdn&amp;imwidth=1200&amp;imheight=628"><div><h6 class="card-title">'Cervical Cancer Kills Over 77K Women In India Each Year' — Gynaecologists' Body Wants HPV Vaccine Added To National Program - ABP Live</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Cervical cancer can be caused by different strains of human papillomavirus. It is rapidly becoming a more common preventable cause of death and suffering among Indian women than maternal mortality.</p><a class="btn btn-secondary" target="_blank" href="https://news.abplive.com/health/cervical-cancer-kills-over-77k-women-in-india-each-year-gynaecologists-body-wants-hpv-vaccine-added-to-national-program-1558563">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.deccanherald.com/sites/dh/files/fhjghv-1154359-1666001660.png"><div><h6 class="card-title">[#HOAX INFORMED] Super Slim Keto Gummies Canada SCAM ALERT Don't Claim Before Read REVIEWS - Deccan Herald</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Are you looking to add a delicious and nutritious addition to your keto diet? If so, you'll love these Super Slim Keto Gummies. Made with organic acv and delicious strawberries, these gummies will help you reach your daily carb and protein requirements while …</p><a class="btn btn-secondary" target="_blank" href="https://www.deccanherald.com/brandspot/pr-spot/hoax-informed-super-slim-keto-gummies-canada-scam-alert-don-t-claim-before-read-reviews-1154359.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.livemint.com/img/2022/10/17/600x338/20210118023L_1611622327953_1611622340771_1665967347144_1665967347144.jpg"><div><h6 class="card-title">Sensex ends 500 pts higher, Nifty gains 125 pts; PSU Bank zooms; Metal lags | Mint - Mint</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Share Market Close: Benchmark indices stayed strongly on Monday and ended in the green with a gain of around 0.8%. PSU Banks led the charge with SBI, Bajaj Finserv, and NTPC ending with gains, while Hindalco, Ultratech Cement and JSW Steel dragged. Electronic…</p><a class="btn btn-secondary" target="_blank" href="https://www.livemint.com/market/stock-market-news/share-market-live-updates-sensex-nifty-bse-nse-stock-market-today-17-10-2022-11665967128701.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://static.india.com/wp-content/uploads/2022/10/Arthritis-in-young-adults.jpeg"><div><h6 class="card-title">Arthritis in Young Adults: Causes, Symptoms And Home Remedies All You Need To Know - India.com</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Arthritis is a disorder that impacts the joints.</p><a class="btn btn-secondary" target="_blank" href="https://www.india.com/health/arthritis-in-young-adults-causes-symptoms-and-home-remedies-all-you-need-to-know-5690504/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.indianexpress.com/2022/10/WhatsApp-Image-2022-10-17-at-3.22.00-PM.jpeg"><div><h6 class="card-title">Delhi News Live Updates: As CBI questions Manish Sisodia in excise policy case, AAP leaders detained over protest - The Indian Express</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Delhi News Live Updates: The AAP has launched a hectic poll campaign in Gujarat, with Delhi Chief Minister Arvind Kejriwal and Sisodia visiting and campaigning in the state regularly over the past two months</p><a class="btn btn-secondary" target="_blank" href="https://indianexpress.com/article/cities/delhi/delhi-news-live-updates-cbi-manish-sisodia-aap-bjp-8213010/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.deccanherald.com/sites/dh/files/p1-1154350-1666000713.png"><div><h6 class="card-title">What is Java Burn? [Medically Reviewed] - Deccan Herald</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Java Burn: A pure weight loss formula that works for other bodily issues as well.&nbsp; An Overview</p><a class="btn btn-secondary" target="_blank" href="https://www.deccanherald.com/brandspot/pr-spot/what-is-java-burn-medically-reviewed-1154350.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://i0.wp.com/cricketaddictor.com/wp-content/uploads/2022/09/Screenshot-2022-09-20-at-12.39.07-PM.png"><div><h6 class="card-title">PAK vs ENG Live Streaming Details- When And Where To Watch Pakistan vs England Live In Your Country? ICC T20 World Cup 2022 Warm-Up Match - Cricket Addictor</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">PAK vs ENG Live Streaming Details- When And Where To Watch Pakistan vs England Live In Your Country? ICC T20 World Cup 2022 Warm-Up Match</p><a class="btn btn-secondary" target="_blank" href="https://cricketaddictor.com/icc-t20-world-cup-2022/pak-vs-eng-live-streaming-details-when-and-where-to-watch-pakistan-vs-england-live-in-your-country-cc-t20-world-cup-2022-warm-up-match/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.indianexpress.com/2022/10/Supernova-explosion-alert-20221017.jpg"><div><h6 class="card-title">Stars give warnings when they are about to explode in a supernova - The Indian Express</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Astronomers have discovered how stars that are about to explode in a supernova will give 'warnings' weeks or months before they explode.</p><a class="btn btn-secondary" target="_blank" href="https://indianexpress.com/article/technology/science/supernova-explosion-alert-warning-science-news-8213751/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/nhdpu65o_bmw-crash-in-up_625x300_17_October_22.jpg"><div><h6 class="card-title">Watch: "Slow Down" Said Passenger As BMW Hit 230 kmph, It Crashed In UP - NDTV</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The victims have been identified as Anand Prakash, a resident of Dehri, Bihar, Akhilesh Singh, who was a realtor, Deepak Kumar, an engineer -- both from Aurangabad, Bihar -- and a businessman named Mukesh. All of them were in their mid-30s.</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/india-news/bmw-crash-on-purvanchal-expressway-video-chaaron-marenge-4-dead-in-horrific-car-crash-chasing-300-kmph-3437748">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/2pc7tbh_mohammed-shami_625x300_17_October_22.jpg?im=FitAndFill,algorithm=dnn,width=1200,height=675"><div><h6 class="card-title">India Vs Australia: Rohit Sharma Explains Why Mohammed Shami Bowled Only 20th Over Of Warm-Up Match - NDTV Sports</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Mohammed Shami only bowled the final over of the T20 World Cup warm-up match against Australia. Shami successfully defended 10 runs in the over and also picked up 3 wickets.</p><a class="btn btn-secondary" target="_blank" href="https://sports.ndtv.com/t20-world-cup-2022/india-vs-australia-rohit-sharma-explains-why-mohammed-shami-bowled-only-20th-over-of-warm-up-match-3438271">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/21m65lb_ayushmann_625x300_17_October_22.jpg"><div><h6 class="card-title">A Glimpse Of Ayushmann Khurrana And Tahira Kashyap's Home, All Decorated For Diwali - NDTV Movies</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Tahira Kashyap shared a glimpse from the pre-Diwali festivities</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/entertainment/a-glimpse-of-ayushmann-khurrana-and-tahira-kashyaps-home-all-decorated-for-diwali-3438290">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hindustantimes.com/img/2022/10/17/1600x900/drishyam2-trailer_1665995307749_1665995308002_1665995308002.png"><div><h6 class="card-title">Drishyam 2 trailer: Ajay Devgn's case reopens 7 years later - Hindustan Times</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Drishyam 2 trailer: Ajay Devgn, Tabu and Akshaye Khanna released the trailer in Goa on Monday. The film will follow the events of the first film after seven years. | Bollywood</p><a class="btn btn-secondary" target="_blank" href="https://www.hindustantimes.com/entertainment/bollywood/drishyam-2-trailer-ajay-devgn-s-case-reopens-7-years-later-101665994876127.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://img.etimg.com/thumb/msid-94913674,width-1070,height-580,imgsize-896325,overlay-ettech/photo.jpg"><div><h6 class="card-title">Byju’s raises $250 million in funding from existing investors - Economic Times</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The edtech startup said last week that it will fire 5% of its 50,000-strong workforce or about 2,000-2,500 employees.</p><a class="btn btn-secondary" target="_blank" href="https://economictimes.indiatimes.com/tech/funding/byjus-raises-250-million-in-funding-from-existing-investors/articleshow/94913609.cms">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hindustantimes.com/tech/img/2022/10/17/1600x900/asteroid20161103-16_3_1664787559893_1665994928255_1665994928255.jpg"><div><h6 class="card-title">Shocking speed bump! Asteroid Phaethon's spin rate is changing - HT Tech</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">“Potentially hazardous” asteroid Phaethon’s rotational period is decreasing by 4 milliseconds per year. It’s the 11th known asteroid to show a change in its spinning period.</p><a class="btn btn-secondary" target="_blank" href="https://tech.hindustantimes.com/tech/news/shocking-speed-bump-asteroid-phaethon-s-spin-rate-is-changing-71665994285136.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://st1.bgr.in/wp-content/uploads/2022/10/Moto-E22s-1.jpg"><div><h6 class="card-title">Moto E22s launched in India: Check price, specs - BGR India</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The newly launched Moto E22s smartphone costs Rs 8999 in India and it will go on sale in the country starting October 22.</p><a class="btn btn-secondary" target="_blank" href="https://www.bgr.in/mobiles/motorola-launches-moto-e22s-in-india-check-price-specs-features-1333398/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/nog1b1d_mallikarjun-kharge-shashi-tharoor-pti-pic_650x400_17_October_22.jpg"><div><h6 class="card-title">A Gandhis-Proxy Or Shashi Tharoor? Congress Votes Now: 10 Points - NDTV</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The Congress is voting for its first non-Gandhi chief in over 20 years as Mallikarjun Kharge and Shashi Tharoor face off in the party's internal election. While the Gandhis are not in the contest, Mr Kharge is seen as the 'approved' candidate.</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/india-news/mallikarjun-kharge-vs-shashi-tharoor-in-congress-polls-today-10-points-3437167">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.moneycontrol.com/static-mcnews/2022/10/moto-e22s-770x433.jpg"><div><h6 class="card-title">Moto E22s budget smartphone launched in India with MediaTek G37 SoC, 90Hz Display, 5,000 mAh Battery - Moneycontrol</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The Moto E22s price in India is set at Rs 8,999 in India for the sole 4GB/64GB model.</p><a class="btn btn-secondary" target="_blank" href="https://www.moneycontrol.com/news/technology/moto-e22s-budget-smartphone-launched-in-india-with-mediatek-g37-soc-90hz-display-5000-mah-battery-9341771.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hindustantimes.com/img/2022/10/17/1600x900/modi_1665991183972_1665991184190_1665991184190.png"><div><h6 class="card-title">Galwan clash clip shown at key China meet singles India as military adversary - Hindustan Times</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">By playing the June 15, 2020 Galwan clash clip at the opening of 20th Congress of Chinese Communist Party, the Xi Jinping regime has identified India as an enemy before the Han people and this will have serious repercussions on the bilateral relationship. | L…</p><a class="btn btn-secondary" target="_blank" href="https://www.hindustantimes.com/india-news/china-latest-news-xi-jinping-latest-galwan-clash-clip-shown-at-key-china-meet-singles-india-as-military-adversary-101665991105184.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.news18.com/ibnlive/uploads/2022/06/uddhav-thackeray-5-165657466216x9.jpg"><div><h6 class="card-title">In Big Win for Team Uddhav, BJP Withdraws Candidate From Andheri Bypoll After Request by Raj Thackeray - News18</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Maharashtra Navirman Sena (MNS) chief Raj Thackery had urged the BJP not to contest the East Andheri bypoll in reverence to late Shiv Sena MLA Ramesh Latke.</p><a class="btn btn-secondary" target="_blank" href="https://www.news18.com/news/politics/bjp-to-withdraw-its-candidate-in-crucial-andheri-east-bypoll-6182047.html">Read more</a></div></div></div></div></div>
+
+        
+
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border text-primary" role="status">
+            <span class="sr-only"></span>
+          </div>
+        </div>
+
+    <footer style="color: white; text-align: center; font-size: 17px;">
+      <div class="container p-3">
+  
+        <p>©News100. All rights reserved.</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/vedant-pawar-0b58201b4" target="_blank" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

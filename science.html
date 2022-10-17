@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>News100-Top Headlines</title>
+
+    <style>
+
+      body{
+        background-color:black ;
+      }
+      .fa {
+    padding: 7px 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style="color: rgb(55, 212, 255); font-weight: 500 ;" >News</span>
+          <img src="logo.jpg" width="30" height="30"  class="d-inline-block align-top" alt="" style="border-radius: 60%;">
+        </a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="main.html" style="color:rgb(255, 255, 255);">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               liveTV
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ndtv.html">NDTV</a>
+                <a class="dropdown-item" href="abpnews.html">ABP News</a>
+                <a class="dropdown-item" href="indiatv.html">India TV</a>
+               
+                 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(156, 156, 156);">
+                Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="sports.html" id="sport">Sports</a></li>
+                  <li><a class="dropdown-item" href="#" id="science">Science</a></li>
+                  <li><a class="dropdown-item" href="world.html" id="world">World</a></li>
+                  <li><a class="dropdown-item" href="Entertainment.html" id="Enter">Entertainment</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pricing.html" style="color: white;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="clients.html" style="color: white;">Partners</a>
+              </li>
+
+      
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="newsQuery">
+              <button class="btn btn-outline-success bg-success text-bg-success" type="submit" id="searchBtn">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <div class="row m-3 p-4" id="newsType"></div>
+   <div class="row me-2 ms-2 p-4" id="newsdetails"><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://gdb.voanews.com/013b0000-0aff-0242-5df8-08daad3a7f49_cx0_cy1_cw0_w1200_r1.jpg"><div><h6 class="card-title">Scientists Use Model to Predict Conditions for Life on Ancient Mars - VOA Learning English</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">A new study has found that ancient Mars may have been able to support a large population of microscopic organisms. The study suggests the microorganisms might have been growing just beneath the Mars surface about 4 billion years ago.</p><a class="btn btn-secondary" target="_blank" href="https://learningenglish.voanews.com/a/scientists-use-model-to-predict-conditions-for-life-on-ancient-mars/6788469.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.digitaltrends.com/wp-content/uploads/2022/10/Screenshot-2022-10-16-203440.jpg?p=1"><div><h6 class="card-title">Here’s how NASA will drop off a sample of an asteroid - Digital Trends</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">NASA has shared details on how exactly the OSIRIS-REx spacecraft will deliver its sample of asteroid Bennu to Earth.</p><a class="btn btn-secondary" target="_blank" href="https://www.digitaltrends.com/space/nasa-osiris-rex-sample-delivery/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/26_03_2022_13_17_33_690102.jpg?width=920&amp;format=jpeg"><div><h6 class="card-title">Science News Roundup: SpaceX capsule splashes down, returning 4 astronauts from Space Station - Devdiscourse</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Read more about Science News Roundup: SpaceX capsule splashes down, returning 4 astronauts from Space Station on Devdiscourse</p><a class="btn btn-secondary" target="_blank" href="https://www.devdiscourse.com/article/technology/2216269-science-news-roundup-spacex-capsule-splashes-down-returning-4-astronauts-from-space-station">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://scitechdaily.com/images/Visible-Milky-Way-Galaxy-Versus-Its-Galactic-Underworld.jpg"><div><h6 class="card-title">Milky Way’s Graveyard of Dead Stars Found – First Map of the “Galactic Underworld” - SciTechDaily</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">A new study creates the first map of our galaxy’s ancient dead stars. In the first map of the 'galactic underworld', a study from the University of Sydney has revealed a vast graveyard that stretches three times the height of the Milky Way. It has also indica…</p><a class="btn btn-secondary" target="_blank" href="https://scitechdaily.com/milky-ways-graveyard-of-dead-stars-found-first-map-of-the-galactic-underworld/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://i.ytimg.com/vi/iI5t-7yQAQU/hqdefault.jpg"><div><h6 class="card-title">NASA confirms asteroid strike results in big nudge - AP Archive</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">(11 Oct 2022) RESTRICTION SUMMARY: MUST CREDIT NASA++AUDIO AS INCOMING++++SOUNDBITES SEPARATED BY BLACK FRAMES++NASA - MUST CREDIT NASAWashington - 11 Octobe...</p><a class="btn btn-secondary" target="_blank" href="https://www.youtube.com/watch?v=iI5t-7yQAQU">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://static.techspot.com/images2/news/bigimage/2022/10/2022-10-16-image-16.jpg"><div><h6 class="card-title">Minecraft player recreates the entire known universe - TechSpot</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Minecraft players have been creating enormous, complex creations for years, but Christopher Slayton's latest project may have just earned him the crown as the new king of...</p><a class="btn btn-secondary" target="_blank" href="https://www.techspot.com/news/96334-minecraft-player-recreates-entire-known-universe.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Sex Pistols, Jugs, Bottles and Speed: NREL breaks through on a fast, cheap route to recycling plastic in one pot, at one time - Biofuels Digest</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://www.biofuelsdigest.com/bdigest/2022/10/16/sex-pistols-jugs-bottles-and-speed-nrel-breaks-through-on-a-fast-cheap-route-to-recycling-plastic-in-one-pot-at-one-time/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.marktechpost.com/wp-content/uploads/2022/10/Screen-Shot-2022-10-16-at-10.57.00-AM.png"><div><h6 class="card-title">DeepMind Introduces the Perception Test, a New Multimodal Benchmark Using Real-World Videos to Help Evaluate the Perception Capabilities of a Machine Learning Model - MarkTechPost</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Benchmarks have influenced artificial intelligence (AI) in defining research goals and enabling researchers to track progress toward those goals. An important component of intelligence is perception, the process of experiencing the world through the senses. I…</p><a class="btn btn-secondary" target="_blank" href="https://www.marktechpost.com/2022/10/16/deepmind-introduces-the-perception-test-a-new-multimodal-benchmark-using-real-world-videos-to-help-evaluate-the-perception-capabilities-of-a-machine-learning-model/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hothardware.com/contentimages/newsitem/59876/content/nasa-bullet-test.jpg"><div><h6 class="card-title">NASA Performs Dangerous Vacuum Gun Test To Research Space Rock Impact Protection - Hot Hardware</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">NASA used a 2-stage light gas gun that fires bullets 25 times faster than a 44 Magnum ahead of Mars Sample Return mission.</p><a class="btn btn-secondary" target="_blank" href="https://hothardware.com/news/nasa-performs-vacuum-gun-test-to-research-space-rock-impact-protection">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Study reveals how an unusually large number of insects are destroying plants - ThePrint</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Washington [US], October 16 (ANI): Despite the decrease in the population of bugs, researchers at the University of Wyoming discovered that insects are nevertheless causing tremendous damage to plants. The first-of-its-kind study compares insect herbivore dam…</p><a class="btn btn-secondary" target="_blank" href="https://theprint.in/science/study-reveals-how-an-unusually-large-number-of-insects-are-destroying-plants/1170602/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">NASA astronaut Jessica Watkins becomes 1st African-American woman to join long-duration ISS mission as she safely returns after 6 months from space - The Financial Express</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMizwFodHRwczovL3d3dy5maW5hbmNpYWxleHByZXNzLmNvbS9saWZlc3R5bGUvc2NpZW5jZS9uYXNhLWFzdHJvbmF1dC1qZXNzaWNhLXdhdGtpbnMtYmVjb21lcy0xc3QtYWZyaWNhbi1hbWVyaWNhbi13b21hbi10by1qb2luLWxvbmctZHVyYXRpb24taXNzLW1pc3Npb24tYXMtc2hlLXNhZmVseS1yZXR1cm5zLWFmdGVyLTYtbW9udGhzLWZyb20tc3BhY2UvMjcxMzc0My_SAQA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Russian and Italian team up on spacewalk - AP Archive</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://www.youtube.com/supported_browsers?next_url=https:%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dju9jPZ_7fUs">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://i0.wp.com/indiaeducationdiary.in/wp-content/uploads/2021/02/Ural_Federal_University_eng-3.jpg?fit=893%2C503&amp;ssl=1"><div><h6 class="card-title">Ural Federal University: Miniature Permanent Magnets Can Be Printed on a 3D Printer - India Education Diary</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Scientists from the Ural Federal University and the Ural Branch of the Russian Academy of Sciences are determining the optimal conditions for 3D printing of permanent magnets from hard magnetic compounds based on rare-earth metals. This will make it</p><a class="btn btn-secondary" target="_blank" href="https://indiaeducationdiary.in/ural-federal-university-miniature-permanent-magnets-can-be-printed-on-a-3d-printer/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://scx2.b-cdn.net/gfx/news/hires/2022/human-brain-cells-in-a-2.jpg"><div><h6 class="card-title">'Sentient' brain cells in dish learn to play video game: study - Medical Xpress</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Brain cells living in a dish can learn to play the classic video game Pong, thus demonstrating "intelligent and sentient behavior," Australian neuroscientists argue in a new paper.</p><a class="btn btn-secondary" target="_blank" href="https://medicalxpress.com/news/2022-10-sentient-brain-cells-dish-video.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://cdn.mos.cms.futurecdn.net/oaaVrndscWyZABBDW65ftn-1200-80.jpg"><div><h6 class="card-title">Astronomers discovered something strange about 'potentially hazardous' asteroid Phaethon - Space.com</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Phaethon is just the 11th known asteroid to demonstrate a changing rotational period.</p><a class="btn btn-secondary" target="_blank" href="https://www.space.com/phaethon-asteroid-spin-speeding-up">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://s01.sgp1.cdn.digitaloceanspaces.com/book/181271-pzdiuiiqqu-1665737546.jpeg"><div><h6 class="card-title">An astrophysicist explains the ‘cosmic thumbprint’ photo taken by the James Webb telescope - Scroll.in</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">The distant star system surrounded by surreal concentric geometric rungs had lit up the internet with theories and speculation.</p><a class="btn btn-secondary" target="_blank" href="https://scroll.in/article/1035003/an-astrophysicist-explains-the-cosmic-thumbprint-photo-taken-by-the-james-webb-telescope">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.ancient-origins.net/sites/default/files/field/image/humans-and-Neanderthals_0.jpg"><div><h6 class="card-title">Humans and Neanderthals Lived Together in Europe for 2000 Years! - Ancient Origins</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">When humans first arrived on the European continent about 42,500 years ago, the Neanderthals were still living there, and would remain there for another 1,400 to 2,900 years before&nbsp;finally disappearing&nbsp;from the face of the Earth.</p><a class="btn btn-secondary" target="_blank" href="https://www.ancient-origins.net/news-evolution-human-origins/humans-and-neanderthals-0017403">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Scientists discovered 10 lakh years old DNA, know where and how such old samples were found - Hunt Daily News</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMidGh0dHBzOi8vaHVudGRhaWx5bmV3cy5pbi9zY2llbnRpc3RzLWRpc2NvdmVyZWQtMTAtbGFraC15ZWFycy1vbGQtZG5hLWtub3ctd2hlcmUtYW5kLWhvdy1zdWNoLW9sZC1zYW1wbGVzLXdlcmUtZm91bmQv0gEA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://scitechdaily.com/images/Dwarf-Galaxy-NGC1427A.jpg"><div><h6 class="card-title">New Discovery Indicates an Alternative Gravity Theory - SciTechDaily</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Disturbances in the dwarf galaxies of one of Earth's closest galaxy clusters point to a different gravity theory. Dwarf galaxies are small, faint galaxies that are often found in or close to bigger galaxies or galaxy clusters. As a result, they could be impac…</p><a class="btn btn-secondary" target="_blank" href="https://scitechdaily.com/new-discovery-indicates-an-alternative-gravity-theory/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://news.cgtn.com/news/2022-10-16/Chinese-astronomers-detect-record-breaking-gamma-ray-burst-1ebk1cRDFao/img/142e0d5c865d480bb5c7b9356fe83af1/142e0d5c865d480bb5c7b9356fe83af1-750.png"><div><h6 class="card-title">Chinese astronomers detect record-breaking gamma-ray burst - CGTN</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Chinese astronomers detected the brightest flash of light ever seen from an event likely triggered by the formation of a black hole.</p><a class="btn btn-secondary" target="_blank" href="https://news.cgtn.com/news/2022-10-16/Chinese-astronomers-detect-record-breaking-gamma-ray-burst-1ebk1cRDFao/index.html">Read more</a></div></div></div></div></div>
+
+   <div class="d-flex justify-content-center">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only"></span>
+    </div>
+  </div>
+
+
+    <footer style="color: white; text-align: center; font-size: 17px;">
+      <div class="container p-3">
+  
+        <p>©News100. All rights reserved.</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/vedant-pawar-0b58201b4" target="_blank" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+
+
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

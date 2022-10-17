@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>News100-Top Headlines</title>
+
+    <style>
+
+      body{
+        background-color:black ;
+      }
+      .fa {
+    padding: 7px 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style="color: rgb(55, 212, 255); font-weight: 500 ;" >News</span>
+          <img src="logo.jpg" width="30" height="30"  class="d-inline-block align-top" alt="" style="border-radius: 60%;">
+        </a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="main.html" style="color:rgb(255, 255, 255);">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               liveTV
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ndtv.html">NDTV</a>
+                <a class="dropdown-item" href="abpnews.html">ABP News</a>
+                <a class="dropdown-item" href="indiatv.html">India TV</a>
+               
+                 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(156, 156, 156);">
+                Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="sports.html" id="sport">Sports</a></li>
+                  <li><a class="dropdown-item" href="science.html" id="science">Science</a></li>
+                  <li><a class="dropdown-item" href="#" id="world">World</a></li>
+                  <li><a class="dropdown-item" href="Entertainment.html" id="Enter">Entertainment</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pricing.html" style="color: white;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="clients.html" style="color: white;">Partners</a>
+              </li>
+
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="newsQuery">
+              <button class="btn btn-outline-success bg-success text-bg-success" type="submit" id="searchBtn">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <div class="row m-3 p-4" id="newsType"></div>
+    <div class="row me-2 ms-2 p-4" id="newsdetails"><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://wwwcache.wral.com/asset/business/2022/10/16/20523912/media_c7a27e1562794d3d94e63ddb2cf9324e-DMID1-5wl5n396x-640x426.jpg"><div><h6 class="card-title">Postal worker holdup leads to muscle car theft ring arrests - WRAL News</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Thieves are using cloned key fobs to steal Dodge muscle cars and other high-powered vehicles directly from dealerships and even automakers in Michigan, then selling them for tens of thousands of dollars less than their value, according to authorities and cour…</p><a class="btn btn-secondary" target="_blank" href="https://www.wral.com/postal-worker-holdup-leads-to-muscle-car-theft-ring-arrests/20523910/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">FX Traders Eye Japan Response as Yen Approaches 150 Level - Bloomberg</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://www.bloomberg.com/tosv2.html?vid=&amp;uuid=4635c60a-4dc7-11ed-ad27-6c4a6e6c5776&amp;url=L25ld3MvYXJ0aWNsZXMvMjAyMi0xMC0xNi9meC10cmFkZXJzLWV5ZS1qYXBhbi1yZXNwb25zZS1hcy15ZW4tYXBwcm9hY2hlcy0xNTAtbGV2ZWw=">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">G4 Is Being Shut Down Less Than a Year After It Launched - IGN - IGN</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMiVWh0dHBzOi8vd3d3Lmlnbi5jb20vYXJ0aWNsZXMvZzQtaXMtYmVpbmctc2h1dC1kb3duLWxlc3MtdGhhbi1hLXllYXItYWZ0ZXItaXQtbGF1bmNoZWTSAQA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://img.ksl.com/slc/2897/289776/28977632.jpg?filter=kslv2/responsive_story_lg"><div><h6 class="card-title">2 of the largest supermarkets in America are merging - KSL.com</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Kroger announced Friday that it plans to buy Albertsons in a nearly $25 billion deal that could change the U.S. retail industry and impact how millions of customers buy their groceries.</p><a class="btn btn-secondary" target="_blank" href="https://www.ksl.com/article/50495357/2-of-the-largest-supermarkets-in-america-are-merging">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://image.cnbcfm.com/api/v1/image/107099147-NYSE-Trading-Floor-OB-Photo-220804-CC-PRESS-4.jpg?v=1665957689&amp;w=1920&amp;h=1080"><div><h6 class="card-title">Stock futures rise slightly after a rollercoaster week - CNBC</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Investors are monitoring if corporate America will have any significant downward revisions to their outlooks.</p><a class="btn btn-secondary" target="_blank" href="https://www.cnbc.com/2022/10/16/stock-market-futures-open-to-close-news.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Stock Market Today: Dow, S&amp;P Live Updates for Oct 17 - Bloomberg</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://www.bloomberg.com/tosv2.html?vid=&amp;uuid=5d2ff8a3-4db6-11ed-b6b2-795355525355&amp;url=L25ld3MvYXJ0aWNsZXMvMjAyMi0xMC0xNi9zdG9ja3Mtc2V0LXRvLWV4dGVuZC1kZWNsaW5lcy1jdXJyZW5jaWVzLW9uLWVkZ2UtbWFya2V0cy13cmFw">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://s.hdnux.com/photos/01/27/74/02/23052439/3/rawImage.jpg"><div><h6 class="card-title">HelloFresh conducts mass layoffs, closure of Bay Area warehouse - SFGATE</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">This year, the meal-kit company’s demand has seen a sharp decline.</p><a class="btn btn-secondary" target="_blank" href="https://www.sfgate.com/local/article/HelloFresh-layoffs-and-Bay-Area-plant-closure-17513253.php">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://image.cnbcfm.com/api/v1/image/107135374-1665890671572-gettyimages-1415110817-img_0366_c94ebd8e-3e79-458a-b9f2-f4e751da876c.jpeg?v=1665955801&amp;w=1920&amp;h=1080"><div><h6 class="card-title">Robust or vulnerable? Experts are split on Australia's economic outlook - CNBC</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Australia's economists are tied on their judgement call concerning the economy's outlook. The Bank of Queensland is "quite bullish" while others are cautious.</p><a class="btn btn-secondary" target="_blank" href="https://www.cnbc.com/2022/10/16/robust-or-vulnerable-experts-are-split-on-australias-economic-outlook.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.reuters.com/resizer/Sq75aMmFA-0P53MBOdH2Q2FEEGc=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/DGT2SKQZCRKDDDSTAAXUG3K2SY.jpg"><div><h6 class="card-title">Morning Bid: Hello darkness my old friend - Reuters</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">A look at the day ahead in Asian markets from Jamie McGeever</p><a class="btn btn-secondary" target="_blank" href="https://www.reuters.com/markets/europe/global-markets-view-asia-graphic-2022-10-16/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.thestreet.com/.image/t_share/MTg2OTI0ODU3OTg2OTE3ODgw/cathie-wood_4.jpg"><div><h6 class="card-title">Ark's Cathie Wood Continues to Stumble - TheStreet</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Soaring interest rates and weak economic growth have dented Wood’s young, 'disruptive' technology companies.</p><a class="btn btn-secondary" target="_blank" href="https://www.thestreet.com/investing/ark-cathie-wood-continues-stumble">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://cdn.motor1.com/images/mgl/JO3A2g/s1/2024-mercedes-amg-eqe-suv-exterior-front-quarter.jpg"><div><h6 class="card-title">2024 Mercedes-Benz EQE SUV Debuts Alongside Hi-Po AMG Variant - Motor1 </h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">The Mercedes-EQ lineup is getting larger thanks to the EQE SUV, a high-riding version of the similarly named sedan. And there’s an AMG variant coming, too.</p><a class="btn btn-secondary" target="_blank" href="https://www.motor1.com/news/616536/2023-mercedes-eqe-suv-amg/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.wsj.net/im-645071/social"><div><h6 class="card-title">Winter's Approach Raises Stakes in European Energy Crisis - The Wall Street Journal</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Europe’s scramble to wean itself off Russian natural gas faces its first big test in coming weeks, with falling temperatures expected to boost demand amid tight supplies and high prices.</p><a class="btn btn-secondary" target="_blank" href="https://www.wsj.com/articles/winters-approach-raises-stakes-in-european-energy-crisis-11665926245">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.wsj.net/im-645073/social"><div><h6 class="card-title">Elon Musk Jumps Into Geopolitics Ahead of Planned Twitter Takeover - The Wall Street Journal</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">The self-described free-speech absolutist has said he would prefer to stay out of politics but has also used Twitter to weigh in.</p><a class="btn btn-secondary" target="_blank" href="https://www.wsj.com/articles/elon-musk-jumps-into-geopolitics-ahead-of-planned-twitter-takeover-11665928581">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://i.ytimg.com/vi/yTwjIcDHJ74/maxresdefault.jpg"><div><h6 class="card-title">Lawsuits filed between cookie companies | GMA - Good Morning America</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Crumbl Cookies has sued smaller competitors Dirty Dough and Crave, accusing them of trademark infringement.Subscribe to GMA's YouTube page:  https://bit.ly/2...</p><a class="btn btn-secondary" target="_blank" href="https://www.youtube.com/watch?v=yTwjIcDHJ74">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">NC town fines YMCA each day for a healthy outdoor activity that’s now getting booted. - Charlotte Observer</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMiRWh0dHBzOi8vd3d3LmNoYXJsb3R0ZW9ic2VydmVyLmNvbS9uZXdzL2J1c2luZXNzL2FydGljbGUyNjczNTY5NjIuaHRtbNIBAA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.thestreet.com/.image/t_share/MTkyMzA4Njg1MzkxNzk5NTMy/michael-burry-lead-js-091322.jpg"><div><h6 class="card-title">Big Short Michael Burry Says Facebook Is In Big Trouble - TheStreet</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Legendary investor attacks social media giant's strategy.</p><a class="btn btn-secondary" target="_blank" href="https://www.thestreet.com/technology/big-short-burry-says-facebook-and-zuckerberg-are-in-big-trouble">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://img.asmedia.epimg.net/resizer/9JobNtQEvG5JuU858fp2UASGFMQ=/644x362/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/442GHWKLFBHRNIGXHTA6VAURZU.jpg"><div><h6 class="card-title">Social Security COLA 2023, live online today: increase, benefits and adjustment | SSA latest news - AS USA</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Next year Social Security benefits along with other government pension and disability programs will get a major boost from the 2023 COLA. Here’s the latest</p><a class="btn btn-secondary" target="_blank" href="https://en.as.com/latest_news/social-security-cola-2023-live-online-today-increase-benefits-and-adjustment-ssa-latest-news-n-3/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.cointelegraph.com/images/1200_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjItMTAvNzk1YmE4ZDctYzJiNC00YzgxLWI5NjYtYjcwMmUzNTUzZDlkLmpwZw==.jpg"><div><h6 class="card-title">Bitcoin clings to $19K as trader promises capitulation ‘will happen‘ - Cointelegraph</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">Bitcoin prepares another dull weekly close with BTC price action eerily stable.</p><a class="btn btn-secondary" target="_blank" href="https://cointelegraph.com/news/bitcoin-clings-to-19k-as-trader-promises-capitulation-will-happen">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.reuters.com/resizer/G5th7wpf4iRUb9yd_ucCi1jboBQ=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/X4J5PH5O2JODXFOCOSTYFHOWW4.jpg"><div><h6 class="card-title">OPEC+ members line up to endorse production cut after U.S. coercion claim - Reuters</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">OPEC+ member states lined up on Sunday to endorse a steep production cut agreed this month after the White House, stepping up a war of words with Riyadh, claimed Saudi Arabia had coerced some other nations into supporting the move.</p><a class="btn btn-secondary" target="_blank" href="https://www.reuters.com/business/energy/oman-says-opec-decisions-based-purely-economic-considerations-tweet-2022-10-16/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://s.yimg.com/ny/api/res/1.2/oWIVPRg55FYtXVRprZ84dg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/people_218/aafb06591a22d96b28e73d3eb5f1324d"><div><h6 class="card-title">Jeff Bezos and Lauren Sánchez Hold Hands While Enjoying a Trip to the Colosseum in Rome, Italy - Yahoo Entertainment</h6><h6 class="text-primary">2022-10-16</h6><p class="text-muted">The former Amazon CEO and his partner walked hand in hand while exploring the landmark during their trip abroad</p><a class="btn btn-secondary" target="_blank" href="https://people.com/human-interest/jeff-bezos-lauren-sanchez-hold-hands-trip-colosseum-rome-italy/">Read more</a></div></div></div></div></div>
+
+
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only"></span>
+      </div>
+    </div>
+
+
+
+    <footer style="color: white; text-align: center; font-size: 17px;">
+      <div class="container p-3">
+  
+        <p>©News100. All rights reserved.</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/vedant-pawar-0b58201b4" target="_blank" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

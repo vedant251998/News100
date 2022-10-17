@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>News100-Top Headlines</title>
+
+    <style>
+
+      body{
+        background-color:black ;
+      }
+      .fa {
+    padding: 7px 5px;
+    font-size: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span style="color: rgb(55, 212, 255); font-weight: 500 ;" >News</span>
+          <img src="logo.jpg" width="30" height="30"  class="d-inline-block align-top" alt="" style="border-radius: 60%;">
+        </a>
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="main.html" style="color:rgb(255, 255, 255);">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               liveTV
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="ndtv.html">NDTV</a>
+                <a class="dropdown-item" href="abpnews.html">ABP News</a>
+                <a class="dropdown-item" href="indiatv.html">India TV</a>
+               
+                 
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" style="color: white;">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(156, 156, 156);">
+                Categories
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="sports.html" id="sport">Sports</a></li>
+                  <li><a class="dropdown-item" href="science.html" id="science">Science</a></li>
+                  <li><a class="dropdown-item" href="main.html" id="world">World</a></li>
+                  <li><a class="dropdown-item" href="#" id="Enter">Entertainment</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pricing.html" style="color: white;">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="clients.html" style="color: white;">Partners</a>
+              </li>
+
+      
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="newsQuery">
+              <button class="btn btn-outline-success bg-success text-bg-success" type="submit" id="searchBtn">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <div class="row m-3 p-4" id="newsType"></div>
+       <div class="row me-2 ms-2 p-4" id="newsdetails"><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/21m65lb_ayushmann_625x300_17_October_22.jpg"><div><h6 class="card-title">A Glimpse Of Ayushmann Khurrana And Tahira Kashyap's Home, All Decorated For Diwali - NDTV Movies</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Tahira Kashyap shared a glimpse from the pre-Diwali festivities</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/entertainment/a-glimpse-of-ayushmann-khurrana-and-tahira-kashyaps-home-all-decorated-for-diwali-3438290">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hindustantimes.com/img/2022/10/17/1600x900/drishyam2-trailer_1665995307749_1665995308002_1665995308002.png"><div><h6 class="card-title">Drishyam 2 trailer: Ajay Devgn's case reopens 7 years later - Hindustan Times</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Drishyam 2 trailer: Ajay Devgn, Tabu and Akshaye Khanna released the trailer in Goa on Monday. The film will follow the events of the first film after seven years. | Bollywood</p><a class="btn btn-secondary" target="_blank" href="https://www.hindustantimes.com/entertainment/bollywood/drishyam-2-trailer-ajay-devgn-s-case-reopens-7-years-later-101665994876127.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://i.ytimg.com/vi/K-M0uYzUoUk/maxresdefault.jpg"><div><h6 class="card-title">BTS Jin to enlist in military and other members to follow suit - KOREA NOW</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">You can watch this video at https://koreanow.com</p><a class="btn btn-secondary" target="_blank" href="https://www.youtube.com/watch?v=K-M0uYzUoUk">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/ggrdu1n_malaika-arora_625x300_17_October_22.jpg"><div><h6 class="card-title">Malaika Arora To Maria Goretti: Can You Name All The MTV OGs In This Pic? - NDTV</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">“Really love this noisy, mad bunch that I spent years working and travelling with," she wrote</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/entertainment/a-look-at-maria-goretti-s-heartwarming-note-for-her-noisy-mad-bunch-3438046">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif"><div><h6 class="card-title">The Ghost’s closing collections in Nizam are here - 123telugu</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets</p><a class="btn btn-secondary" target="_blank" href="https://www.123telugu.com/mnews/the-ghosts-closing-collections-in-nizam-are-here.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://1847884116.rsc.cdn77.org/tamil/news/simbu-trisha-marriage-171022-7f0.jpg"><div><h6 class="card-title">Will Simbu and Trisha accept marriage request? - Tamil News - Telugu Cinema - IndiaGlitz</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Simbu and Trisha first starred together in 'Alai' directed by Vikram Kumar released in the year 2013.&nbsp; However it was seven years later in 2010 they made history reuniting for the evergreen romance</p><a class="btn btn-secondary" target="_blank" href="https://www.indiaglitz.com/simbu-trisha-marriage-request-social-media-pathu-thala-ponniyin-selvan-ram-tamil-news-326083">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://timesofindia.indiatimes.com/photo/94911129/size-66556/94911129.jpg"><div><h6 class="card-title">VIRAL ALERT! Rashmika Mandanna's old video of fixing her short dress to avoid oops moment resurfaces - Times of India</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Rashmika Mandanna has been ruling the hearts of millions with her beauty and charming personality. She is also grabbing limelight, of late, for her rumoured relationship with Pushpa co-star Vijay Deverakonda. Now, amid her films and love life reports, an old …</p><a class="btn btn-secondary" target="_blank" href="https://timesofindia.indiatimes.com/videos/entertainment/hindi/viral-alert-rashmika-mandannas-old-video-of-fixing-her-short-dress-to-avoid-oops-moment-resurfaces/videoshow/94911129.cms">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.greatandhra.com/newphotos10/keerthy11665987475.jpeg"><div><h6 class="card-title">Dasara 1st Look: Keerthy's Mass Dance As Bride.. - Greatandhra</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Keerthy Suresh is playing the leading lady opposite Nani's rustic action entertainer Dasara being directed by Srikanth Odela.</p><a class="btn btn-secondary" target="_blank" href="https://www.greatandhra.com/movies/news/dasara-1st-look-keerthys-mass-dance-as-bride-124550">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.greatandhra.com/newphotos10/ramp11665987357.jpg"><div><h6 class="card-title">Sri Simha triggers controversy with his 'Kootha Ramp'.. - Greatandhra</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Young Hero Sri Simha's exciting next is known to be a crime comedy film titled 'Bhaag Saale' directed by Praneeth Sai.</p><a class="btn btn-secondary" target="_blank" href="https://www.greatandhra.com/movies/news/sri-simha-triggers-controversy-with-his-kootha-ramp-124549">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://images.hindustantimes.com/img/2022/10/17/1600x900/Deepika_Padukone_beautiful_list_1665985795850_1665985832350_1665985832350.jpeg"><div><h6 class="card-title">Deepika Padukone is only Indian among 10 most beautiful women in the world - Hindustan Times</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Deepika Padukone is listed alongside Kim Kardashian, Bella Hadid, Beyonce and Ariana Grande as one of the 10 most beautiful women, according to science. Jodie Comer has been declared as the most beautiful woman in the world. | Bollywood</p><a class="btn btn-secondary" target="_blank" href="https://www.hindustantimes.com/entertainment/bollywood/deepika-padukone-is-only-indian-among-10-most-beautiful-women-in-the-world-see-full-list-101665985334718.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/10/vaishali-takkar-1-1665985069.jpg"><div><h6 class="card-title">Who is Vaishali Takkar's alleged ex BF Rahul named in suicide note by Yeh Rishta Kya Kehlata Hai actress? - India TV News</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Vaishali Takkar died by suicide at her Indore residence and a suicide note has been recovered by the police. The probe is on in the matter.</p><a class="btn btn-secondary" target="_blank" href="https://www.indiatvnews.com/trending/news/who-is-vaishali-takkar-ex-boyfriend-businessman-rahul-suicide-note-yeh-rishta-kya-kehlata-hai-actress-harassment-2022-10-17-816819">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://timesofindia.indiatimes.com/photo/94909374/size-47406/94909374.jpg"><div><h6 class="card-title">Bhojpuri actress Rani Chatterjee's shocking allegations against #MeToo accused Sajid Khan: He asked about my breast size, frequency of intercourse - Times of India</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">MeToo accused and filmmaker Sajid Khan has been hitting the headlines since his entry in 'Bigg Boss 16' house. Now, Bhojpuri sensation Rani Chatterjee made some shocking allegations against Sajid during an interview with a news channel. While recalling her or…</p><a class="btn btn-secondary" target="_blank" href="https://timesofindia.indiatimes.com/videos/entertainment/regional/bhojpuri/bhojpuri-actress-rani-chatterjees-shocking-allegations-against-metoo-accused-sajid-khan-he-asked-about-my-breast-size-frequency-of-intercourse/videoshow/94909374.cms">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/tkvmjd5g_srk_625x300_17_October_22.jpg"><div><h6 class="card-title">Pics: Shah Rukh Khan Presents Son AbRam With Taekwondo Gold Medal. Gauri, Suhana, Aryan Form Cheer Squad - NDTV Movies</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">The Khan family attended a Taekwondo tournament in Mumbai</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/entertainment/pics-shah-rukh-khan-presents-son-abram-with-taekwondo-gold-medal-gauri-suhana-aryan-form-cheer-squad-3437797">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://timesofindia.indiatimes.com/photo/94908163/size-53818/94908163.jpg"><div><h6 class="card-title">Baba Ramdev's shocking claims: Salman Khan consumes drugs, Shah Rukh Khan's son was also caught. God knows about the actresses - Times of India</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Yoga Guru Baba Ramdev recently made some shocking claims against Bollywood during his speech at Aryaveer and Veerangana conference in Moradabad. He said, Salman Khan takes drugs, I do not know about Aamir Khan. Shah Rukh Khan`s child was caught while taking d…</p><a class="btn btn-secondary" target="_blank" href="https://timesofindia.indiatimes.com/videos/entertainment/hindi/baba-ramdevs-shocking-claims-salman-khan-consumes-drugs-shah-rukh-khans-son-was-also-caught-god-knows-about-the-actresses/videoshow/94908163.cms">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="nif.png"><div><h6 class="card-title">Nayanthara says surrogate is her relative, marriage with Vignesh Shivan registered 6 years ago - The Indian Express</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted"></p><a class="btn btn-secondary" target="_blank" href="https://news.google.com/__i/rss/rd/articles/CBMingFodHRwczovL2luZGlhbmV4cHJlc3MuY29tL2FydGljbGUvZW50ZXJ0YWlubWVudC90YW1pbC9uYXlhbnRoYXJhLXN1cnJvZ2F0ZS1oZXItcmVsYXRpdmUtbWFycmlhZ2Utd2l0aC12aWduZXNoLXNoaXZhbi1yZWdpc3RlcmVkLTYteWVhcnMtYWdvLWFmZmlkYXZpdC04MjEzMTQ0L9IBAA?oc=5">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://english.cdn.zeenews.com/sites/default/files/2022/10/17/00000003_15.jpg"><div><h6 class="card-title">Malaika Arora Latest Pictures wearing revealing dress - Zee News</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Whenever Malaika Arora comes in front of the camera wearing a revealing dress, she creates such a spark of beauty that the photos set fire. This time Malaika Arora went braless and wore such a bold dress that everyone was surprised to see her look. The actres…</p><a class="btn btn-secondary" target="_blank" href="https://zeenews.india.com/video/entertainment/malaika-arora-latest-pictures-wearing-revealing-dress-2522849.html">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.dnpindia.in/wp-content/uploads/2022/10/Dilwa-Me-Hola-Gudgudi.webp"><div><h6 class="card-title">Nirahua and Amrapali’s Hot Romantic Dance on ‘Dilwa Me Hola Gudgudi’ is Setting Fire All Over the Internet, watch video - DNP INDIA </h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Nirahua and Amrapali:&nbsp;Bhojpuri videos and songs are loved by everyone these days. Bhojpuri songs are in trend nowadays.</p><a class="btn btn-secondary" target="_blank" href="https://www.dnpindia.in/entertainment/nirahua-and-amrapalis-hot-romantic-dance-on-dilwa-me-hola-gudgudi-is-setting-fire-all-over-the-internet-watch-video/110377/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://c.ndtvimg.com/2022-10/cc9qhs6o_wobble_625x300_17_October_22.jpg"><div><h6 class="card-title">Video Of Cat Bobbling Its Head Can Take Away Your "Monday Blues" - NDTV</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">A video shows the cat named Wobble bobbling its head in an uncontrolled manner with music in the background acting as a perfect energising therapy.</p><a class="btn btn-secondary" target="_blank" href="https://www.ndtv.com/offbeat/video-of-cat-bobbling-its-head-can-take-away-your-monday-blues-3437635">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://tracktollywood.com/wp-content/uploads/2022/09/varisu_1.jpeg"><div><h6 class="card-title">Dil Raju is disappointed as his plans are not working out for Vijay's Varisu - TrackTollywood</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Kollywood star Vijay's Varisu is one of the most anticipated films in Kollywood as well as Tollywood. Dil Raju</p><a class="btn btn-secondary" target="_blank" href="https://tracktollywood.com/dil-raju-is-disappointed-as-his-plans-are-not-working-out-for-vijays-varisu/">Read more</a></div></div></div><div class="col-sm-12 col-md-4 col-lg-3 p-2 card"><div class="p-1"><img height="35%" width="100%" src="https://www.123telugu.com/content/wp-content/themes/123telugu/images/logo.gif"><div><h6 class="card-title">Tough task ahead for Chiranjeevi and Balakrishna - 123telugu</h6><h6 class="text-primary">2022-10-17</h6><p class="text-muted">Telugu cinema news, Telugu Movies Updates, Latest Movie reviews in Telugu, Telugu cinema reviews, telugu movie reviews, Tollywood, Box office collections, Telugu Movie show times, Theater List, telugu cinema tickets</p><a class="btn btn-secondary" target="_blank" href="https://www.123telugu.com/mnews/tough-task-ahead-for-chiranjeevi-and-balakrishna.html">Read more</a></div></div></div></div>
+</div>
+
+<div class="d-flex justify-content-center">
+  <div class="spinner-border text-primary" role="status">
+    <span class="sr-only"></span>
+  </div>
+</div>
+
+
+
+    <footer style="color: white; text-align: center; font-size: 17px;">
+      <div class="container p-3">
+  
+        <p>©News100. All rights reserved.</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="https://www.linkedin.com/in/vedant-pawar-0b58201b4" target="_blank" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
